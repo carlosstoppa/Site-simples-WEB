@@ -1,0 +1,141 @@
+section{
+	width:1100px;
+	height:700px;
+	margin: 0 auto;
+}
+header{
+	width:1100px;
+	height:70px;
+	margin-top: 0 auto;
+	background-image: url('../image/icone.png');
+
+}
+header h1{
+margin-top:0px;
+padding-top:0px;
+}
+.header1{
+	width:1100px;
+	height:50px;
+	background-color:#ffbc00;
+	padding-top: 0px;
+	margin-top: 0 px;
+}
+nav{
+	width:150px;
+	height:370px;
+	background-color: #000000;
+}
+.ulHorizontal{
+	margin-top:-16px;
+}
+.nav0{
+	width:150px;
+	height:370px;
+	background-color: #87CEFA;
+	float: left;
+	text-align:center;
+	font-size:17px;
+	margin-top:0px;
+	padding-top:0px;
+}
+
+article{
+	width:1100px;
+	height:350px;
+	background-color: #ffbc00;
+	text-align:center;
+}
+article h2{
+margin-top:0px;
+padding-top:0px;
+}
+.nav1{
+	width:150px;
+	height:1500px;
+	background-image: url('../image/Sonic.png');
+	background-repeat:  no-repeat;
+	float:right;
+	margin-top:-350px;
+}
+.rodape{
+	width:1100px;
+	height:70px;
+	background-color:#87CEFA;
+	text-align:center;
+	font-size: 20px;
+	margin-bottom: -5px;
+	padding-bottom:35px;
+}
+
+/*Menu Horizontal INICIO*/
+
+.menuHorizontal{
+	width: 1100px;
+	height: 18px;
+	background-color: #87CEFA;
+	text-align:center;
+
+}
+
+.menuHorizontal ul{
+	margin-left: -40px;
+}
+
+.menuHorizontal ul li{
+	
+	float: left;
+	min-width: 183px;
+	text-align: center;
+	list-style-type: none;
+	color: #ffffff;
+	text-decoration: none;
+	
+}
+
+.menuHorizontal a:link,a:hover,a:visited{
+	color: #ffffff;
+	text-decoration: none;
+}
+.liHorizontal:hover{
+	background-color: #0000FF;
+}
+
+/* BreadCrumb Inicio */
+
+/* Style the list */
+ul.breadcrumb {
+    list-style: none;
+    background-color: #ffbc00;
+    font-size: 16px;
+	padding-top: 0px;
+	margin-top: 0px;
+}
+
+/* Display list items side by side */
+ul.breadcrumb li {
+    display: inline;
+}
+
+/* Add a slash symbol (>) before/behind each list item */
+ul.breadcrumb li+li:before {
+	padding: 5px;
+    color: black;
+	content: "/\00a0";
+
+}
+
+/* Add a color to all links inside the list */
+ul.breadcrumb li a {
+    color: #fffff;
+    text-decoration: none;
+}
+
+/* Add a color on mouse-over */
+ul.breadcrumb li a:hover {
+    color: #ffffff;
+}
+
+/* Fim BreadCrumb */
+
+/*https://darlanglauber.wordpress.com/2007/05/16/significado-das-cores/ */

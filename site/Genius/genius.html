@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="cssGenius/estilo.css">
+		<script type="text/javascript" src="jsGenius/gameLoop.js"></script>
+		<title>Genius</title>
+	</head>
+	<body>
+	<header></header>
+	<div class= "header1">		
+		<ul class="breadcrumb">
+		<li class="liHorizontal"><a href="index.html">HOME</a></li>
+		</ul></div>
+		
+		<div id="container">
+			<div id="simon">
+				<div id="first"></div>
+				<div id="a" onclick="meuClique(0)"></div>
+				<div id="b" onclick="meuClique(1)"></div>
+				<div id="c" onclick="meuClique(2)"></div>
+				<div id="d" onclick="meuClique(3)"></div>
+				<div id="sixth"></div>
+			</div>
+			<div id="count">0</div>
+		</div>
+		<div id="start"onclick="inicia()">Jogar</div>
+		<div id="fail"onclick="reinicia()">
+			<span>Clique para tentar novamente</span>
+		</div>
+	</body>
+</html>

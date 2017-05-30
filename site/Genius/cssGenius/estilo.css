@@ -1,0 +1,131 @@
+body{
+	font-family:"Arial", Georgia, Serif; /* Estilo da fonte */
+}
+#start{ /* Inicio*/
+	display:block; /* Bloqueio para nao vazar da tela */
+	width:400px; /* Largura */
+	height:350px; /* Altura*/
+	text-align:center; /* Alinhar texto*/
+	position:relative; /* Posicao relativa ao layout*/
+	margin:0 auto; /* Centralizar */
+	font-size:95px; /* Tamanho da fonte */
+	color:#ffffff; /* Cor */
+	padding-top:75px; /* Distancia do topo*/
+}
+#start:hover{ /* Ao passar por cima*/
+	cursor:pointer; /* Cursor seta */
+}
+#fail{ /* reinicia */
+	display:block; /* bloqueio do display ao reiniciar */
+	width:400px; /* Largura */
+	height:350px; /* Altura */
+	text-align:center; /* Texto alinhado ao centro */
+	position:relative; /* posicao relativa ao layout */
+	margin:0 auto; /* centralizar */
+	font-size:72px; /* tamanho da fonte */
+	color:#ffffff; /* Cor */
+	padding-top:95px; /* Distancia do topo */
+	display:none; /* display */
+}
+#fail:span{ /* Mensagem para tentar novamente */
+	font-size:50px; /* Tamanho da fonte */
+}
+#fail:hover{ /* Ao passar por cima  */
+	cursor:pointer; /* Mouse seta */
+}
+#simon{ /* Div*/
+	position:relative; /* Posicao relativa */
+}
+#count{ /* Div */
+	position:absolute; /* Posicao static */
+	top:200px; /*  Distancia topo*/
+	left:183px; /* Distancia a esquerda */
+	font-size:40px; /* Tamanho da fonte */
+	color:#ffffff; /* Cor */
+	width:80px; /*Largura*/
+	text-align:center; /* Alinhar texto ao centro */
+}
+#container{ /* Div */
+	width:450px; /* Largura */
+	position:relative; /* Posicao relativa */
+	margin:0 auto; /* Centralizar */
+}
+#first{ /* Div */
+	position:absolute; /* Posicao static */
+	display:inline-block; /*Bloqueio em linha*/
+	width:0; /*  Largura*/
+	height:0; /* Altura */
+	line-height:0; /* Altura da linha */
+	border: 225px solid #222222; /* Borda */
+	border-radius: 225px; /* Bordas arredondadas  */
+	left:0px; /* esquerda */
+	top:0px; /*  topo */
+}
+#a{
+	position:absolute; /* Div inicio */
+	display:inline-block;
+	width:0;
+	height:0;
+	border:183px solid;
+	border-color:#0b7000;
+	border-bottom:none;
+	border-right:none;
+	border-top-left-radius:183px;
+	left:33px;
+	top:33px;
+	/* Fim da div A padrao mudança de cor apenas */
+}
+#b{
+	position:absolute; /* Div inicio */
+	display:inline-block;
+	width:0;
+	height:0;
+	border:183px solid;
+	border-color:#c30800;
+	border-bottom:none;
+	border-right:none;
+	border-top-right-radius:183px;
+	left:236px;
+	top:33px;
+	/* Fim da div B padrao mudança de cor apenas */
+}
+#c{ /* Div inicio*/
+	position:absolute;
+	display:inline-block;
+	width:0;
+	height:0;
+	border:183px solid;
+	border-color:#c3b400;
+	border-bottom:none;
+	border-right:none;
+	border-bottom-left-radius:183px;
+	left:33px;
+	top:236px;
+	/* Fim da div C padrao mudança de cor apenas */
+}
+#d{ /*  Div inicio*/
+	position:absolute;
+	display:inline-block;
+	width:0;
+	height:0;
+	border:183px solid;
+	border-color:#196d85;
+	border-bottom:none;
+	border-right:none;
+	border-bottom-right-radius:183px;
+	left:236px;
+	top:236px;
+	/* Fim da div D padrao mudança de cor apenas*/
+}
+#sixth{ /* Inicio da div sixth */
+	position:absolute;
+	display:inline-block;
+	width:0;
+	height:0;
+	line-height:0;
+	border:54px solid #222222;
+	border-radius:54px;
+	left:172px;
+	top:172px;
+	/* Fim da div sixth */
+}
